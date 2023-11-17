@@ -1,6 +1,6 @@
 {
-  "name": "cs-465-full-stack-development",
-  "version": "0.0.0",
+  "name": "travlr",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -9,10 +9,14 @@
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "express-handlebars": "^7.1.2",
-    "handlebars": "^4.7.8",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "mongoose": "^5.9.1",
+    "morgan": "~1.9.1",
+    "seedgoose": "^2.0.15"
+  },
+  "devDependencies": {
+    "hbs": "^4.2.0",
+    "seedgoose": "^2.0.2"
   }
 }
