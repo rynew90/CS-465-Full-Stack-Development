@@ -1,0 +1,11 @@
+<div class="col-md-3">
+  <h2 class="text-center">Delete Trip</h2>
+  <form [formGroup]="deleteForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <p class="form-control-static">Delete This Trip?</p>
+    </div>
+
+    <button type="submit" class="btn btn-info">Delete</button>
+  </form>
+</div>
