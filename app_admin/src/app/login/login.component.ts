@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthenticationService } from '../services/authentication.service';
-import { User } from '../models/user';
 
 @Component({
   selector: 'app-login',
@@ -36,7 +35,7 @@ public onLoginSubmit(): void {
 
 private doLogin(): void {
   this.authenticationService.login(this.credentials)
-    .then(() => this.router.navigateByUrl('#'))
+    .then(() => this.router.navigateByUrl('/list-trips'))
     .catch((message) => this.formError = message);
   }
 }
