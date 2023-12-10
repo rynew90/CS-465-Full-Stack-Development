@@ -1,6 +1,6 @@
 const mongoose = require('mongoose'); // .set('debug', true);
-const Trip = mongoose.trip('trips');
-const User = mongoose.trip('users');
+const Trip = mongoose.model('trips');
+const User = mongoose.model('users');
 
 // GET: /trips - lists all trips
 const tripsList = async (req, res) => {

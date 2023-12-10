@@ -1,9 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const jwt = require('express-jwt');
-
-const jwtSecret = process.env.JWT_SECRET;
-console.log('JWT Secret: ', jwtSecret);
+const { expressjwt: jwt } = require('express-jwt');
 
 const auth = jwt({
     secret: process.env.JWT_SECRET,
@@ -17,12 +14,10 @@ const tripsController = require('../controllers/trips');
 router
     .route('/login')
     .post(authController.login)
-    .catch((err) => console.error(err));
 
 router
     .route('/register')
     .post(authController.register)
-    .catch((err) => console.error(err));
 
 router
     .route('/trips')
