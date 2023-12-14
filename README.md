@@ -2,9 +2,9 @@
 
 1. Architecture
     1. Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
-       '''Express HTML is used to set up the structure and layout of a webpage to organize images, links, paragraphs, headers and footers, and sidebar items. Javascript is a programming language used in the client-side development of web-based applications that implements dynamic functionality and objects that serve the user when interacting with the web page, such as user input validation. Single-page applications (SPA) are web-based applications that use one web page to display all of the data and information held in the back-end of the application, replacing existing HTML code with the code for the page being navigated to. All of these components are essential to creating a rich and efficient user experience that reduces load times for the web pages.'''
-    2. Why did the backend use a NoSQL MongoDB database?
-       '''The back-end portion of the webpage used a NoSQL database in order to increase the flexibility of the data types. Using a NoSQL database, the webpage was able to create a semi-structured dataset with a schema defined by the developers.'''
+'''Express HTML is used to set up the structure and layout of a webpage to organize images, links, paragraphs, headers and footers, and sidebar items. Javascript is a programming language used in the client-side development of web-based applications that implements dynamic functionality and objects that serve the user when interacting with the web page, such as user input validation. Single-page applications (SPA) are web-based applications that use one web page to display all of the data and information held in the back-end of the application, replacing existing HTML code with the code for the page being navigated to. All of these components are essential to creating a rich and efficient user experience that reduces load times for the web pages.'''
+    3. Why did the backend use a NoSQL MongoDB database?
+'''The back-end portion of the webpage used a NoSQL database in order to increase the flexibility of the data types. Using a NoSQL database, the webpage was able to create a semi-structured dataset with a schema defined by the developers.'''
 
 2. Functionality
     1. How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
